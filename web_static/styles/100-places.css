@@ -139,7 +139,7 @@ article h2{
 }
 
 .articles .amenities {
-	/* margin-top: 40px; */
+	margin-top: 40px;
 }
 
 .articles .amenities h2,
@@ -151,31 +151,25 @@ article h2{
 .articles .amenities ul li{
 	font-size: 12px;
 	display: flex;
-    justify-content: space-between;
+    width: max-content;
 	align-items: center;
 }
 
+.amenities .icon {
+	width: 30px;
+	height: 30px;
+    background-size: cover;
+    background-position: center;
+}
 .pet_icon {
-	width: 50%;
-	height: 60px;
 	background-image: url("../images/icon_pets.png");
-	background-repeat: no-repeat;
 }
 
 .tv_icon {
-	display: inline-block;
-	width: 111px;
-	width: 50%;
-	height: 60px;
 	background-image: url("../images/icon_tv.png");
-	background-repeat: no-repeat;
 }
 .wifi_icon {
-	width: 50%;
-	font-size: 12px;
-	height: 60px;
 	background-image: url("../images/icon_wifi.png");
-	background-repeat: no-repeat;
 }
 
 .articles .reviews {

@@ -156,8 +156,9 @@ article h2{
 }
 
 .amenities .icon {
-	width: 30px;
+    width: 30px;
 	height: 30px;
+    margin-right: 10px;
     background-size: cover;
     background-position: center;
 }
@@ -171,6 +172,7 @@ article h2{
 .wifi_icon {
 	background-image: url("../images/icon_wifi.png");
 }
+
 
 .articles .reviews {
 	margin-top: 40px;
